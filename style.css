@@ -43,7 +43,7 @@ nav {
   background: #1C5551;
   padding: 80px 80px 0;
   display: grid; grid-template-columns: 1fr 1fr; gap: 60px;
-  align-items: flex-end; min-height: 540px; overflow: hidden;
+  align-items: flex-end; min-height: 540px;
 }
 .hero-left { padding-bottom: 80px; }
 .hero h1 {
@@ -57,7 +57,7 @@ nav {
 .hero-input {
   display: flex; gap: 0;
   border: 1.5px solid rgba(255,255,255,0.25);
-  border-radius: 8px; overflow: hidden; max-width: 380px;
+  border-radius: 8px; max-width: 380px;
   background: rgba(255,255,255,0.07);
 }
 .hero-input input {
@@ -150,7 +150,7 @@ nav {
 .affordable-chart  {
   position: relative; height: 60px;
   background: linear-gradient(135deg, rgba(150,100,240,0.1), rgba(150,100,240,0.25));
-  border-radius: 8px; overflow: hidden;
+  border-radius: 8px;
 }
 .affordable-chart::after {
   content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
@@ -177,7 +177,7 @@ nav {
 .products-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
 .prod-card {
   border-radius: 20px; padding: 32px;
-  min-height: 320px; position: relative; overflow: hidden;
+  min-height: 320px; position: relative;
 }
 .prod-card.health  { background: #1C5551; }
 .prod-card.pension { background: #6b46c1; }
@@ -334,7 +334,7 @@ nav {
 .country-dropdown {
   display: none; position: absolute; top: calc(100% + 8px); left: 0; right: 0;
   background: #1C5551; border: 1.5px solid rgba(255,255,255,0.15);
-  border-radius: 16px; overflow: hidden; z-index: 100;
+  border-radius: 16px; z-index: 100;
   box-shadow: 0 8px 32px rgba(0,0,0,0.4);
   max-height: 240px; overflow-y: auto;
 }
@@ -347,7 +347,7 @@ nav {
 }
 .country-dropdown a:hover { background: rgba(255,255,255,0.08); color: #fff; }
 .country-dropdown a .flag { font-size: 18px; }
-.map-wrap { max-width: 960px; margin: 0 auto; border-radius: 16px; overflow: hidden; }
+.map-wrap { max-width: 960px; margin: 0 auto; border-radius: 16px; }
 .map-wrap img { width: 100%; display: block; }
 
 .integrations { background: #1C5551; padding: 80px; text-align: center; }
@@ -642,8 +642,8 @@ footer {
   .employee img, .benchmark img, .finance img { width: 100%; }
   .products-grid, .gs-grid, .gs-grid-2 { grid-template-columns: 1fr; gap: 16px; }
 
-  .cta { grid-template-columns: 1fr; overflow: hidden; }
-  .cta-right { justify-content: center; overflow: hidden; }
+  .cta { grid-template-columns: 1fr; }
+  .cta-right { justify-content: center; }
   .cta-child-img { transform: translateY(0); margin-right: 0; max-width: 100%; width: 80%; }
 
   .faq { grid-template-columns: 1fr 1fr; gap: 32px; }
